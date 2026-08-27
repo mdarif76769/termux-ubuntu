@@ -191,7 +191,7 @@ set_up_browser() {
 
 name="22.04 LTS"
 code_name=noble
-release=20260323
+release=20260826
 
 DISTRO_NAME=Ubuntu
 PROGRAM_NAME=$(basename "${0}")
@@ -202,8 +202,8 @@ VERSION_NAME="${name} ${code_name}-${release}"
 SHASUM_CMD=sha256sum
 TRUSTED_SHASUMS=$(
 	cat <<-EOF
-		3c8f36e427583571cb5536b339355b9d9b60c233eb7aed5e51c41b3ceba5accf *noble-server-cloudimg-arm64-root.tar.xz
-		f605e285923f5a8eb66daf0ffef1315c08792bbfccfaded6311b988ee8d547c8 *noble-server-cloudimg-armhf-root.tar.xz
+		b4ecd9a329b97998178f740326b708da561e28634d609100013c744ec14923c8 *noble-server-cloudimg-arm64-root.tar.xz
+		faba59f5382c4631db643ef387f96f308fe20d7cede071ceea18a5cc557dd999 *noble-server-cloudimg-armhf-root.tar.xz
 	EOF
 )
 
